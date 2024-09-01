@@ -1,0 +1,47 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(255, 0, 0, 0.774);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 0);
+    background-color: green;
+    border-radius: 7px;
+    margin-left: 5px;
+    margin-right: 5px; 
+    margin-top: 0;
+}
+.ingredients, .directions, .description, img{
+   background-color: wheat;
+   border-radius: 7px;
+   margin-left: 5px;
+   margin-right: 5px;
+   margin-bottom: 5px;
+   align-content: center;
+   padding: 10px;
+   flex-grow: 1;
+}
+
+h3 {
+    text-align: center;
+}
+
+.content {
+    display: flex;
+}
+.left-column {
+    align-items: center;
+    display: block;
+    text-align: center;
+    font-weight: lighter;
+    font-size: small;
+}
+img {
+    width: 95%;
+    height: auto;
+}
